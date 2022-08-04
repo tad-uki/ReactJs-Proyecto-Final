@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap'); 
+
+
+.itemTitle p{
+    margin-top: 130px;
+    text-align: center;
+    color: rgb(255, 115, 0);
+    font-size: 40px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: -1px;
+
+}
+
+.itemTitle hr{
+    border: #000 1px solid;
+    width: 99%;
+}
+
+.itemList{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemEach{
+    margin: 25px;
+    padding: 10px;
+    border: solid 2px rgb(109, 5, 5);
+    filter: drop-shadow(6px 6px 5px rgb(0, 0, 0));
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 250px;
+    transition: .3s ease;
+}
+
+.itemEach:hover{
+    transform: scale(1.2);
+}
+
+.itemEach div{
+    margin: auto;
+}
+
+.itemEach img{
+    width: 180px;
+    height: 180px;
+    border: rgba(0, 0, 0, 0.63) 1.5px solid;
+}
+
+
+.itemEach h3{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    background-color: rgb(189, 189, 189);
+    width: 200px;
+    text-align: center;
+    border-radius: 30px;
+    border: rgb(255, 153, 0) 1px solid;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 200;
+}
+
+.itemEach p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    background-color: rgb(189, 189, 189);
+    border-radius: 30px;
+    border: rgb(255, 153, 0) 1px solid;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.itemEach:hover h3, .itemEach:hover p{
+    color: rgb(255, 153, 0);
+    text-shadow: 0.5px 0.5px #000
+}
+
+
+
+.itemEach button{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(255, 153, 0);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 40px;
+    font-family: 'Archivo', sans-serif;
+
+}
+
+.itemEach button:hover{
+    background-color: #000;
+    color: rgb(255, 153, 0);
+    border: rgb(255, 153, 0) 2px solid;
+}
+
+.itemLoading{
+    margin-top: 130px;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.514);
+    font-style: italic;
+}
+

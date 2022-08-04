@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap'); 
+
+#itemDetail{
+    display:  flex;
+    flex-flow: row nowrap;
+
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.detailTitle{
+    margin-top: 130px;
+    margin-left: 250px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: rgb(245, 147, 68);
+    font-size: 40px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.imgDetail{
+    width: 350px;
+    height: 350px;
+    border: 3px solid black;
+    filter: drop-shadow(6px 6px 5px rgb(0, 0, 0));
+}
+
+#itemArticle{
+    margin-left: 80px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border: rgb(245, 147, 68) 1px solid;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(172, 172, 172);
+}
+
+.price{
+    width: 100%;
+}
+
+.price p{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    margin-top: 20px;
+    margin-right: 100px;
+    text-shadow: -1px -1px 0 rgb(245, 147, 68);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+}
+
+.price hr{
+    width: 100%;
+    border: 1px black solid;
+}
+
+#itemArticle article{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Archivo', sans-serif;
+}
+
+
+
+
+
+
+.counter{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.counterSection{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 195px;
+    font-size: 30px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Archivo', sans-serif;
+}
+
+.counterSection button{
+    font-size: 30px;
+    width: 40px;
+    align-self: center;
+    background-color: rgb(252, 170, 77);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+
+.counterSection p{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+
+.stockSection{
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-shadow: -1px -1px 0 rgb(245, 147, 68);
+}
+
+.stockSection div{
+    font-size: 30px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.finishSection{
+    width: 100%;
+}
+
+.finishSection button{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 170, 77);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-family: 'Archivo', sans-serif;
+}
+
+
+.counterSection button:hover{
+    background-color: #000;
+    color: rgb(255, 123, 0);
+    border: 2px solid rgb(255, 123, 0);
+    transition: 0.2s;
+}
+
+.finishSection button:hover{
+    background-color: #000;
+    color: rgb(255, 123, 0);
+    border: 2px solid rgb(255, 123, 0);
+    transition: 0.2s;
+}
+
+.cartAdd{
+    width: 560px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartFinish{
+    width: 200px;
+}
+
+.cartFinish button{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(252, 170, 77);
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 2px;
+    border-radius: 20px;
+    
+}
+
+.cartFinish button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;   
+    font-family: 'Archivo', sans-serif;
+}
+
+.cartFinish button:hover{
+    background-color: #000;
+    border: 2px solid rgb(255, 123, 0);
+    transition: 0.2s;
+}
+
+.cartFinish button:hover a{
+    color: rgb(255, 123, 0);
+}

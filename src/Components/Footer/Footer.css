@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap'); 
+
+footer {
+    margin-top: 60px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "blank1 footer1 footer2 footer3 footer4 blank2"
+   "blank1 footer1 footer2 footer3 footer4 blank2"
+   "blank1 footer1 footer2 footer3 footer5 blank2"
+   "blank1 footer1 footer2 footer3 footer5 blank2"
+   "blank1 footerb footerb footerb footerb blank2"
+   "blank1 footer6 footer6 footer6 footer6 blank2";
+    grid-template-columns: 7% 23% 20% 20% 23% 7%;
+    background-color: black;
+    color: #d39441;
+    padding-top: 50px; }
+  
+  .footer1 {
+    grid-area: footer1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    margin-left: 20%; }
+    .footer1 p {
+      margin-bottom: -1px;
+      word-break: break-all; }
+  
+  .footer2 {
+    grid-area: footer2;
+    margin-left: 20%; }
+    .footer2 p {
+      margin-bottom: -1px; }
+  
+  .footer3 {
+    grid-area: footer3;
+    margin-left: 20%; }
+    .footer3 p {
+      margin-bottom: -1px; }
+  
+  .footer4 {
+    grid-area: footer4;
+    margin-right: 20%; }
+  
+  .footer5 {
+    grid-area: footer5;
+    margin-right: 20%; }
+  
+  .footerb {
+    grid-area: footerb;
+    border: 1px solid #d39441; 
+    width: 100%;}
+  
+  .footer6 {
+    grid-area: footer6;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    font-size: 1rem; }
+    .footer6 span {
+      font-size: 1.2rem;
+      display: flex;
+      flex-flow: row nowrap;
+      margin-right: 20px; }
+      .footer6 span img {
+        width: 30px; }
+      .footer6 span p {
+        font-family: 'Supermercado One', cursive;
+        font-style: italic; }
+    .footer6 p {
+      margin: 10px; }
+  
+  .imgFooter {
+    height: 50px;
+    width: 50px;
+    margin: 10px;}
+  
+  .footerDiv {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start; }
+    .footerDiv h3 {
+      font-size: 1rem; 
+      font-family: 'Montserrat Alternates', sans-serif;
+    }
+      
+    .footerDiv p {
+      font-size: 0.80rem; 
+      font-family: 'Archivo', sans-serif;}
+    .footerDiv span {
+      display: flex;
+      flex-flow: row wrap; }
